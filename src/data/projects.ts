@@ -35,7 +35,7 @@ export const projects: ProjectDetail[] = [
       "Admin dashboard with live metrics",
       "REST API for third-party integration",
     ],
-    techDetails: ["Python", "Scikit-learn", "FastAPI", "Railway", "Supabase", "React"],
+    techDetails: ["Python", "Scikit-learn", "FastAPI", "Railway", "Supabase", "React", "TypeScript"],
     learned:
       "Gained deep understanding of adversarial ML, feature engineering for behavioral data, and building low-latency inference pipelines that handle thousands of requests per second.",
     screenshots: [
@@ -64,7 +64,7 @@ export const projects: ProjectDetail[] = [
       "Priority tagging and category filtering",
       "Resolution history",
     ],
-    techDetails: ["React", "TailwindCSS", "Supabase", "Vercel"],
+    techDetails: ["TypeScript","React", "TailwindCSS", "Supabase", "Vercel"],
     learned:
       "Learned how to design role-based systems with clear workflows, implement secure authentication and authorization, structure databases for real-world use cases, and build clean dashboards that help multiple user types collaborate efficiently.",
     screenshots: [
@@ -79,7 +79,7 @@ export const projects: ProjectDetail[] = [
     title: "ML Flight Price Predictor",
     description:
       "Machine learning model that predicts flight prices with 94% accuracy using historical and seasonal data",
-    techStack: "Python, Scikit-learn, Flask",
+    techStack: "Python, Scikit-learn, FastAPI",
     link: "https://github.com/princeekr/FlightPredict-AI",
     github: "https://github.com/princeekr/FlightPredict-AI",
     problem:
@@ -93,7 +93,7 @@ export const projects: ProjectDetail[] = [
       "Airline comparison charts",
       "REST API for integrations",
     ],
-    techDetails: ["Python", "Scikit-learn", "Flask", "Pandas", "Matplotlib", "Numpy"],
+    techDetails: ["Python", "Scikit-learn", "Flask", "Pandas", "Matplotlib", "Numpy", "TypeScript"],
     learned:
       "Deepened skills in feature engineering, hyperparameter tuning, and deploying ML models as production-ready web services with proper error handling.",
     screenshots: [
@@ -136,7 +136,7 @@ export const projects: ProjectDetail[] = [
     title: "Software Metrics",
     description:
       "SoftMetrics is a multi-tool AI-powered web platform that helps users analyze projects, calculate financial metrics, and learn complex concepts through interactive tools and AI explanations.",
-    techStack: "Python, Scikit-learn, Flask",
+    techStack: "React, TailwindCSS, MongoDB",
     link: "https://softmetrics.vercel.app",
     github: "https://github.com/princeekr/SoftMetricsUpgraded",
     problem:
@@ -150,7 +150,7 @@ export const projects: ProjectDetail[] = [
       "Document upload & analysis",
       "Modern SaaS UI",
     ],
-    techDetails: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
+    techDetails: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Vite", "MongoDB"],
     learned:
       "Learned how to design multi-module SaaS platforms, integrate AI into real-world tools, build scalable dashboards, and structure full-stack applications with modular architecture.",
     screenshots: [
@@ -166,7 +166,7 @@ export const projects: ProjectDetail[] = [
     title: "Iris Predictor",
     description:
       "An ML-powered Iris Flower Species Prediction Web App that classifies iris flowers into Setosa, Versicolor, or Virginica based on flower measurements.",
-    techStack: "Python, Scikit-learn, Flask",
+    techStack: "Python, Scikit-learn, FastAPI",
     link: "https://github.com/princeekr/IrisPredictor",
     github: "https://github.com/princeekr/IrisPredictor",
     problem:
@@ -180,7 +180,7 @@ export const projects: ProjectDetail[] = [
       "Input validation and preprocessing",
       "REST API-based prediction system",
     ],
-    techDetails: ["React", "TypeScript", "Tailwind CSS", "Scikit-learn", "Pandas"],
+    techDetails: ["Python", "Scikit-learn", "FastAPI", "React", "TypeScript", "Tailwind CSS", "Pandas"],
     learned:
       "Learned how to take a classic ML dataset and turn it into a production-style web application. Improved skills in model training, exporting models, building prediction APIs, connecting frontend forms to ML backends, and designing clean, interactive ML interfaces.",
     screenshots: [
