@@ -77,7 +77,7 @@ const Index = ({ loaderDone = true }: { loaderDone?: boolean }) => {
           >
             <StarBorder
               as="a"
-              href="https://drive.google.com/file/d/1KgDgF0D20aYBJJXgT-IQUkBWEVweDs7c/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OrnwbDwHwIFiuSO2XX0NBC-4qneaBL4T/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               color="hsl(225, 100%, 60%)"
