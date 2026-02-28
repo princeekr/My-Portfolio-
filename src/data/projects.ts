@@ -45,8 +45,48 @@ export const projects: ProjectDetail[] = [
     ],
   },
   {
-    slug: "hostel-care",
+    slug: "semantic-pdf-rag",
     number: "02",
+    title: "SemanticPDF – RAG",
+    description:
+      "Full-stack Retrieval-Augmented Generation (RAG) system that allows users to upload PDFs and ask natural language questions grounded strictly in document context.",
+    techStack: "Python, FastAPI, PyTorch",
+    link: "https://github.com/princeekr/SemanticPDF---RAG", 
+    github: "https://github.com/princeekr/SemanticPDF---RAG",
+    problem:
+      "Users often struggle to extract precise insights from lengthy documents. Traditional keyword search fails to capture semantic meaning, and generic LLMs hallucinate when answering document-specific queries without proper grounding.",
+    approach:
+      "Designed a hybrid RAG pipeline that extracts and cleans PDF content, segments it into overlapping chunks, converts them into normalized 384-dimensional embeddings using SentenceTransformers, and indexes them in FAISS for semantic retrieval. Relevant chunks are injected into Gemini via a structured prompt to generate context-grounded answers.",
+    features: [
+      "PDF upload with real-time indexing",
+      "Semantic vector search using cosine similarity",
+      "FAISS-powered nearest-neighbor retrieval",
+      "Grounded answer generation via Gemini API",
+      "Authentication system with login & signup",
+      "Time-based dynamic greeting UI",
+      "ChatGPT-style conversation interface",
+    ],
+    techDetails: [
+      "Python",
+      "FastAPI",
+      "SentenceTransformers (MiniLM)",
+      "FAISS (IndexFlatIP)",
+      "Google Gemini API",
+      "React (Vite)",
+      "TailwindCSS",
+      "TypeScript",
+    ],
+    learned:
+      "Developed a deep understanding of Retrieval-Augmented Generation architecture, vector similarity search, embedding normalization, cosine similarity mathematics, prompt grounding techniques, and building scalable low-latency semantic search systems. Also gained experience integrating AI pipelines into full-stack production-ready applications.",
+    screenshots: [
+      { src: "/ragPdf-login.png", alt: "Login page" },
+      { src: "/ragPdf-home.png", alt: "Dashboard greeting and upload" },
+      { src: "/ragPdf-op.png", alt: "Chat interface with RAG response" },
+    ],
+  },
+  {
+    slug: "hostel-care",
+    number: "03",
     title: "HostelCare",
     description:
       "A full-stack Hostel Complaint Management System designed to streamline how students report issues and how wardens and maintenance staff resolve them.",
@@ -75,7 +115,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "ml-flight-price-predictor",
-    number: "03",
+    number: "04",
     title: "ML Flight Price Predictor",
     description:
       "Machine learning model that predicts flight prices with 94% accuracy using historical and seasonal data",
@@ -103,7 +143,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "predict-performance",
-    number: "04",
+    number: "05",
     title: "Predict Performance - ML",
     description:
       "Predict student performance using machine learning",
@@ -132,7 +172,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "software-metrics",
-    number: "05",
+    number: "06",
     title: "Software Metrics",
     description:
       "SoftMetrics is a multi-tool AI-powered web platform that helps users analyze projects, calculate financial metrics, and learn complex concepts through interactive tools and AI explanations.",
@@ -162,7 +202,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "iris-predictor",
-    number: "06",
+    number: "07",
     title: "Iris Predictor",
     description:
       "An ML-powered Iris Flower Species Prediction Web App that classifies iris flowers into Setosa, Versicolor, or Virginica based on flower measurements.",
@@ -190,7 +230,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "to-do-list",
-    number: "07",
+    number: "08",
     title: "To-Do List",
     description:
       "A modern, minimal task management web app that helps users organize their daily work efficiently with priority-based task tracking and a clean distraction-free interface.",
