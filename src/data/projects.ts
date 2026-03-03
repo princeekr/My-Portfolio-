@@ -114,8 +114,59 @@ export const projects: ProjectDetail[] = [
     ],
   },
   {
-    slug: "ml-flight-price-predictor",
+    slug: "truthtracer-ai-fake-news-detector",
     number: "04",
+    title: "TruthTracer AI - NLP",
+    description:
+      "AI-powered fake news detection platform that analyzes live news article URLs and predicts authenticity with 99% accuracy using TF-IDF and Linear SVM.",
+
+    techStack: "Python, FastAPI, NLP",
+
+    link: "https://github.com/princeekr/TruthTracer",
+    github: "https://github.com/princeekr/TruthTracer",
+
+    problem:
+      "The rapid spread of misinformation makes it difficult for readers to verify the authenticity of online news. Most users lack accessible tools to assess credibility in real time, leading to misinformation amplification and biased decision-making.",
+
+    approach:
+      "Built an end-to-end NLP pipeline that scrapes live news articles using requests and BeautifulSoup, preprocesses text through tokenization, stopword removal, and lemmatization, and transforms content using TF-IDF (3000 features). Trained a Linear SVM classifier achieving 99.29% test accuracy. Deployed the model via FastAPI backend and integrated it with a modern React dashboard for real-time predictions and explainability.",
+
+    features: [
+      "99.29% test accuracy with Linear SVM",
+      "Live URL-based article scraping",
+      "Real-time authenticity prediction",
+      "Confidence score visualization",
+      "Suspicious keyword highlighting",
+      "Confusion matrix and model metrics display",
+      "REST API backend for integration"
+    ],
+
+    techDetails: [
+      "Python",
+      "Scikit-learn",
+      "NLTK",
+      "TF-IDF Vectorization",
+      "Linear SVM",
+      "FastAPI",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "BeautifulSoup",
+      "Requests"
+    ],
+
+    learned:
+      "Deepened understanding of NLP pipelines, feature engineering, high-dimensional sparse vector modeling, SVM optimization, model evaluation using precision/recall/F1 metrics, API development with FastAPI, and full-stack integration between machine learning backends and modern frontend dashboards.",
+
+    screenshots: [
+      { src: "/trutht-dataflow.png", alt: "TruthTracer Dataflow" },
+      { src: "/trutht-home.png", alt: "TruthTracer Home" },
+      { src: "/trutht-result.png", alt: "TruthTracer Result" }
+    ]
+  },
+  {
+    slug: "ml-flight-price-predictor",
+    number: "05",
     title: "ML Flight Price Predictor",
     description:
       "Machine learning model that predicts flight prices with 94% accuracy using historical and seasonal data",
@@ -143,7 +194,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "predict-performance",
-    number: "05",
+    number: "06",
     title: "Predict Performance - ML",
     description:
       "Predict student performance using machine learning",
@@ -172,7 +223,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "software-metrics",
-    number: "06",
+    number: "07",
     title: "Software Metrics",
     description:
       "SoftMetrics is a multi-tool AI-powered web platform that helps users analyze projects, calculate financial metrics, and learn complex concepts through interactive tools and AI explanations.",
@@ -202,7 +253,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "iris-predictor",
-    number: "07",
+    number: "08",
     title: "Iris Predictor",
     description:
       "An ML-powered Iris Flower Species Prediction Web App that classifies iris flowers into Setosa, Versicolor, or Virginica based on flower measurements.",
@@ -230,7 +281,7 @@ export const projects: ProjectDetail[] = [
   },
   {
     slug: "to-do-list",
-    number: "08",
+    number: "09",
     title: "To-Do List",
     description:
       "A modern, minimal task management web app that helps users organize their daily work efficiently with priority-based task tracking and a clean distraction-free interface.",
