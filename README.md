@@ -1,46 +1,46 @@
-# 👋 Hey, I'm Prince Kumar  
+# Hey, I'm Prince Kumar  
 
-🚀 **3rd Year Software Engineering Student @ VIT Vellore**  
-💻 Web Developer | 🤖 ML Enthusiast | 🧠 System Design Learner  
+**3rd Year Software Engineering Student @ VIT Vellore**  
+Web Developer | AI / ML Enthusiast | n8n Automations  
 
 I love building clean web apps, experimenting with machine learning models, and creating projects that are fast, scalable, and actually useful.  
 Always learning, always building.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-**💻 Languages**  
-Python • C++ • SQL • TypeScript • JavaScript
+**Languages:**  
+Python • C++ • JavaScript  • Typescript • Java • Matlab
 
-**🌐 Web**  
-HTML • CSS • React • Node.js • Express • Supabase • Next.js
+**AI/ML:**  
+NLP • RAG • scikit-learn • Pandas • Numpy • PyTorch
 
-**🤖 Machine Learning**  
-Scikit-learn • Pandas • NumPy • Model Deployment  
+**Tools:**  
+Github • Jenkins • Docker • AWS-EC2 • Azure • n8n
 
-**⚙️ Tools**  
-Git • GitHub • Vercel • Railway  
+**Frameworks and Databases:**  
+Node.js • React.js • Express.js • FastAPI • Supabase • SQL • MongoDB   
 
 ---
 
 ## 🚀 Projects
 
-🔹 **AI Web Bot Detection System**  
+**AI Web Bot Detection System**  
 ML-powered system to detect human vs bot behavior in real time.  
 
-🔹 **Full-Stack Web Apps**  
+**Full-Stack Web Apps**  
 Responsive apps with authentication, dashboards, and APIs.  
 
-🔹 **ML Experiments**  
+**ML Experiments**  
 Building and deploying models for real-world use cases.  
 
 ---
 
-## 📈 Currently Focused On
-- Advanced full-stack development  
-- Machine learning integration in web apps  
-- System design & performance optimization  
+## Currently Focused On
+- Advanced AI / ML models 
+- Advanced n8n automations  
+- DSA problems  
 
 ---
 
@@ -48,9 +48,9 @@ Building and deploying models for real-world use cases.
 📧 Email: princee.kumar2023@email.com  
 💼 LinkedIn: https://www.linkedin.com/in/prince-kr-23363231a/
 🐙 GitHub: https://github.com/princeekr  
-🌍 Portfolio:  
+🌍 Portfolio: https://www.princedev.online/
 
 ---
 
 ## ⚡ Random
-I enjoy turning ideas into real working products — fast, clean, and scalable. 🚀
+I enjoy turning ideas into real working products — fast, clean, and scalable.
