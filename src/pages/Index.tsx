@@ -65,7 +65,7 @@ const Index = ({ loaderDone = true }: { loaderDone?: boolean }) => {
             transition={{ duration: 0.6, delay: 0.35 }}
             className="text-base md:text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed"
           >
-            Developer passionate about building <span className="font-semibold text-foreground">AI / ML models and web apps </span>currently open to new opportunities.
+            Developer passionate about building <span className="font-semibold text-foreground">AI & ML models and web applications </span>currently open to new opportunities.
           </motion.p>
 
           {/* CTAs */}
